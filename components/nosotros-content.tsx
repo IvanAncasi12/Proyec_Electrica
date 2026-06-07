@@ -225,11 +225,11 @@ export default function NosotrosContent({ colors }: NosotrosContentProps) {
 
               <div className="tech-card p-8">
                 <div className="flex items-center gap-3 mb-4">
-                  <Eye className="w-7 h-7" style={{ color: colors.terciario }} />
+                  <Eye className="w-7 h-7" style={{ color: colors.primario }} />
 
                   <h3
                     className="text-2xl font-bold"
-                    style={{ color: colors.terciario }}
+                    style={{ color: colors.primario }}
                   >
                     Visión
                   </h3>

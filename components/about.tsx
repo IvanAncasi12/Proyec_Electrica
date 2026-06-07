@@ -139,7 +139,7 @@ export default function About() {
               )}
               {activeTab === 'vision' && (
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold flex items-center gap-2" style={{ color: colors.terciario }}>
+                  <h3 className="text-2xl font-bold flex items-center gap-2" style={{ color: colors.primario }}>
                     <Eye className="w-6 h-6" /> Visión
                   </h3>
                   <div className="text-slate-300 leading-relaxed content-html"
