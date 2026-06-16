@@ -191,7 +191,7 @@ export default function VideosContent({ colors }: VideosContentProps) {
                         <Icon className="w-5 h-5 group-hover:scale-110 transition-transform" style={{ color: colors.primario }} />
                         <span className="text-sm font-medium text-slate-300 group-hover:text-white">{cat.name}</span>
                       </div>
-                      <span className="px-2.5 py-0.5 rounded-full text-xs font-bold text-white" style={{ backgroundColor: colors.primario }}>
+                      <span className="px-2.5 py-0.5 rounded-full text-xs font-bold text-white" style={{ backgroundColor: colors.secundario }}>
                         {cat.count}
                       </span>
                     </a>

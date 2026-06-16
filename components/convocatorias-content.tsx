@@ -164,7 +164,7 @@ export default function ConvocatoriasContent({ colors }: ConvocatoriasContentPro
                         <div className="mb-3">
                           <span 
                             className="inline-block px-3 py-1 rounded-full text-xs font-bold text-white mb-2"
-                            style={{ backgroundColor: colors.primario }}
+                            style={{ backgroundColor: colors.secundario }}
                           >
                             {convocatoria.tipo_conv_comun?.tipo_conv_comun_titulo || 'Convocatoria'}
                           </span>
@@ -223,7 +223,7 @@ export default function ConvocatoriasContent({ colors }: ConvocatoriasContentPro
                       </div>
                       <span 
                         className="px-2.5 py-0.5 rounded-full text-xs font-bold text-white"
-                        style={{ backgroundColor: colors.primario }}
+                        style={{ backgroundColor: colors.secundario }}
                       >
                         {cat.count}
                       </span>

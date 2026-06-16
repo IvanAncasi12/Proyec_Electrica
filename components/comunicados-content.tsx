@@ -218,7 +218,7 @@ export default function ComunicadosContent({ colors }: ComunicadosContentProps) 
                       </div>
                       <span 
                         className="px-2.5 py-0.5 rounded-full text-xs font-bold text-white"
-                        style={{ backgroundColor: colors.primario }}
+                        style={{ backgroundColor: colors.secundario }}
                       >
                         {cat.count}
                       </span>

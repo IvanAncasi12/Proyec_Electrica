@@ -166,7 +166,7 @@ export default function CursosContent({ colors }: CursosContentProps) {
                       <div>
                         <span 
                           className="inline-block px-3 py-1 rounded-full text-xs font-bold text-white mb-2"
-                          style={{ backgroundColor: colors.primario }}
+                          style={{ backgroundColor: colors.secundario }}
                         >
                           {curso.tipo_curso_otro?.tipo_conv_curso_nombre || 'Curso'}
                         </span>
@@ -230,7 +230,7 @@ export default function CursosContent({ colors }: CursosContentProps) {
                       </div>
                       <span 
                         className="px-2.5 py-0.5 rounded-full text-xs font-bold text-white"
-                        style={{ backgroundColor: colors.primario }}
+                        style={{ backgroundColor: colors.secundario }}
                       >
                         {cat.count}
                       </span>
